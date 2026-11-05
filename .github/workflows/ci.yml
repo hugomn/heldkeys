@@ -89,7 +89,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: zizmorcore/zizmor-action@85b2b9fb8e3325e7a23d7d0a9d7ba5ae0f999e3e # v0.7.1
+      - uses: zizmorcore/zizmor-action@53290badfa369cb0bf7ad16342cb62c2fa47ac7b # v0.8.0
         with:
           inputs: .github/workflows action.yml
           version: 1.31.1
@@ -131,7 +131,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: hashgraph-online/ai-plugin-scanner-action@326adfff488f2a4dbc2ca5d6de31744c98ebfdf9 # v1.2.790
+      - uses: hashgraph-online/ai-plugin-scanner-action@3220f5fedcd269533a6275738b2ab5d5f9753e8e # v1.2.811
         with:
           plugin_dir: "."
           min_score: 100
